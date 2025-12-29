@@ -13,6 +13,7 @@ To create a very simple landing page about techtonic using only basic HTML and C
 - How to create responsive webpages using flexbox.
 - How to use classes effectively to write better code.
 - How semantic tags help to create well defined webpages for the programmer as wellass the search engine.
+- How to use tools like Five Server which make HTML WYSIWYG.
 
 **The Difficulties**
 The hardcoding of the border widths.
