@@ -58,8 +58,11 @@ TechTonic-2.0/
 2. Fork the repo
 3. Fetch the cybsersec branch
 4. Switch to cybersec
-5. Work inside tasks/ , instructions will be given within them
-6. Push your changes
+5. Inside the submissions folder:
+   - Create a subfolder with your username.
+   - Inside your folder, create subfolders task1, task2 and so on for your submissions.
+   - For example, if your username is cyber_student and you are submitting for task 1, your folder should look like  submissions/cyber_student/task1/.
+6. Place your solutions only inside your own folder.
 7. Open PR to `cybersec` branch only
 8. Wait for mentor review
 
