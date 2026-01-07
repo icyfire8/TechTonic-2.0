@@ -1,0 +1,12 @@
+mkdir cyber_lab
+cd cyber_lab
+
+touch visible.txt
+
+touch .secret.txt
+
+chmod 444 visible.txt   # read-only for owner, group, others [web:12][web:18]
+
+ls -la
+
+ls -la > listing.txt
