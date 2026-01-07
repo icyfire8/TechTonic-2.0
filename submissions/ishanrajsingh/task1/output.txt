@@ -1,0 +1,12 @@
+ishan@DESKTOP-TL69V2K:/mnt/c/Windows/system32$ mkdir cyber_lab
+ishan@DESKTOP-TL69V2K:/mnt/c/Windows/system32$ cd cyber_lab
+ishan@DESKTOP-TL69V2K:/mnt/c/Windows/system32/cyber_lab$ touch visible.txt
+ishan@DESKTOP-TL69V2K:/mnt/c/Windows/system32/cyber_lab$ touch .secret.txt
+ishan@DESKTOP-TL69V2K:/mnt/c/Windows/system32/cyber_lab$ chmod 444 visible.txt
+ishan@DESKTOP-TL69V2K:/mnt/c/Windows/system32/cyber_lab$ ls -la
+total 0
+drwxrwxrwx 1 ishan ishan 512 Jan  7 17:03 .
+drwxrwxrwx 1 ishan ishan 512 Jan  7 17:03 ..
+-rwxrwxrwx 1 ishan ishan   0 Jan  7 17:03 .secret.txt
+-r-xr-xr-x 1 ishan ishan   0 Jan  7 17:03 visible.txt
+ishan@DESKTOP-TL69V2K:/mnt/c/Windows/system32/cyber_lab$ ls -la > listing.txt
