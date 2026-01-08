@@ -1,0 +1,6 @@
+total 8
+drwxr-xr-x 2 mannat mannat 4096 Jan 7 12:46 .
+drwxr-xr-x 4 mannat mannat 4096 Jan 7 12:45 ..
+-rw-r--r-- 1 mannat mannat    0 Jan 7 12:46 .secret.txt
+-r--r--r-- 1 mannat mannat    0 Jan 7 12:45 visible.txt
+
