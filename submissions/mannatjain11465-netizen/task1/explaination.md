@@ -1,0 +1,3 @@
+The objective of this task was to learn basic Linux commands that are commonly used in cybersecurity, such as creating files, working with hidden files, changing permissions, and saving command output.
+
+First, I created a directory named cyber_lab. Inside it, I created a normal file visible.txt and a hidden file.secret.txt. Then I changed the permission of visible.txt to read-only using chmod 444.After that, I used the ls -la command and redirected its output into output.txt.

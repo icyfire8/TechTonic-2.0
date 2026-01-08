@@ -1,0 +1,6 @@
+mkdir cyber_lab
+cd cyber_lab
+touch visible.txt
+touch .secret.txt
+chmod 444 visible.txt
+ls -la > output.txt
