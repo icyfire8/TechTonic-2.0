@@ -1,0 +1,59 @@
+/* TODO:
+  Add styles
+  Keep it simple and readable.
+*/
+:root
+{
+  --base-color:white;
+  --text-color: black;
+}
+
+
+.darkmode
+{
+  --base-color:black;
+  --text-color: white;
+}
+body
+{
+  background-color: var(--base-color);
+  color: var(--text-color);
+}
+.app
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+}
+
+button:hover
+{
+  cursor: pointer;
+}
+
+#theme-toggle
+{
+  padding: 20px;
+  border: 2px solid grey;
+  border-radius: 40px;
+  background-color: var(--base-color);
+}
+#theme-toggle svg
+{
+  fill: var(--text-color);
+}
+#theme-toggle svg:first-child
+{
+  display: none;
+}
+
+.darkmode #theme-toggle svg:last-child
+{
+  display: none;
+}
+.darkmode #theme-toggle svg:first-child
+{
+  display: block;
+}
