@@ -1,0 +1,21 @@
+/* TODO:
+  Add styles required by your chosen feature.
+  Keep it simple and readable.
+*/
+body
+{
+  background-color: #9CC6DB;
+}
+.app
+{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#input
+{
+  background-color: #F4F4F4;
+  border: 3px solid black;
+}
