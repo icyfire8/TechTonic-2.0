@@ -1,0 +1,226 @@
+/* ===== Base Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #222;
+  background-color: #ffffff;
+  line-height: 1.6;
+}
+
+/* ===== Section ===== */
+.why-techtonic {
+  padding: 4rem 1.5rem;
+  background: linear-gradient(135deg, #f8f9ff, #e8ecff);
+}
+
+/* ===== Section Header ===== */
+.section-header {
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.section-header p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* ===== Features Layout ===== */
+.features {
+  display: flex;
+  gap: 1.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ===== Feature Cards ===== */
+.feature-card {
+  background-color: #ffffff;
+  max-width: 320px;
+  padding: 2rem 1.75rem;
+  border-radius: 24px;
+  border: 1px solid rgba(102, 126, 234, 0.15);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.feature-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+}
+
+.feature-card p {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* ===== Hover Effect ===== */
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 640px) {
+  .section-header h2 {
+    font-size: 1.7rem;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* ===== Website Header ===== */
+.site-header {
+  padding: 1.5rem 1rem;
+  text-align: center;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eee;
+}
+
+.site-title {
+  font-size: 1.0rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.site-title .version {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-left: 0.3rem;
+}
+
+.site-title .thunder {
+  margin-left: 0.1rem;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 640px) {
+  .site-title {
+    font-size: 1.9rem;
+  }
+}
+
+/* ===== Site Header (Dark) ===== */
+.site-header {
+  background-color: #0f1115;
+  padding: 1rem 1.5rem;
+}
+
+.header-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Logo / Title */
+.site-title {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.site-title .version {
+  font-size: 2.0rem;
+  font-weight: 500;
+}
+
+.site-title .thunder {
+  margin-left: 0.1rem;
+}
+
+/* Navigation */
+.site-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.site-nav a:hover {
+  color: #8b9cff;
+}
+
+/* ===== Responsive Navbar ===== */
+@media (max-width: 640px) {
+  .header-container {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .site-nav ul {
+    gap: 1rem;
+  }
+}
+
+/* ===== Wing Wise Branch Structure ===== */
+.wings {
+  padding: 4rem 1.5rem;
+  background-color: #0f1115;
+  color: #ffffff;
+}
+
+.wings .section-header h2 {
+  color: #ffffff;
+}
+
+.wings .section-header p {
+  color: #c7c9d1;
+}
+
+/* Wings Layout */
+.wings-container {
+  margin-top: 3rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Wing Cards */
+.wing-card {
+  background-color: #1a1d23;
+  padding: 1.2rem 1.6rem;
+  min-width: 180px;
+  text-align: center;
+  border-radius: 14px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  border: 1px solid rgba(139, 156, 255, 0.2);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.wing-card:hover {
+  transform: translateY(-4px);
+  background-color: #222633;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .wing-card {
+    width: 100%;
+    max-width: 320px;
+  }
+}
