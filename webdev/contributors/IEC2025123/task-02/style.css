@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar base */
+.navbar {
+  background-color: #0f1115;
+  color: white;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Nav links container */
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* Individual links */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: rgb(64, 64, 184);
+  transform: translate(4px);
+}
+
+/* Hamburger icon */
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+/* ===== Mobile view ===== */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #0f1115;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
